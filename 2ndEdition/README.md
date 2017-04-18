@@ -24,7 +24,7 @@ If you want to install several samples at once, simply edit the identifier, addi
 As the book title says, this is an iOS-specific work. I've included OS X support wherever possible. I do know that I caught one big bug in the later chapters that hasn't propagated back to the early ones. If you deploy to OS X and encounter an error with UIViewNoIntrinsicMetric, please add the following:
 
 <pre>#ifndef UIViewNoIntrinsicMetric
-#define UIViewNoIntrinsicMetric -1
-#endif</pre>
+# define UIViewNoIntrinsicMetric -1
+# endif</pre>
 
 If you find any stray UIKit includes (I tried to smite those I found), please let me know and I'll try to update as well.
